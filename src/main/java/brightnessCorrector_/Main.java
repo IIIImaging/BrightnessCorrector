@@ -1,3 +1,5 @@
+﻿package brightnessCorrector_;
+
 /** ===============================================================================
 * BrightnessCorrector_.java Version 0.0.1
 * 
@@ -25,18 +27,14 @@
 *
 * =============================================================================== */
 
-package brightnessCorrector_;
-
 import java.awt.Font;
 import java.awt.Point;
 import java.awt.event.WindowEvent;
 import java.io.File;
 import java.text.DecimalFormat;
-import java.text.DecimalFormatSymbols;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.Locale;
 
 import javax.swing.UIManager;
 
@@ -432,8 +430,7 @@ private boolean startGenericDialog() {
 	saveMask = gd.getNextBoolean();	
 	saveDate = gd.getNextBoolean();	
 	saveParam = gd.getNextBoolean();
-	resultsToNewFolder = gd.getNextBoolean();
-	ChosenNumberFormat = gd.getNextChoice();	
+	resultsToNewFolder = gd.getNextBoolean();	
 	
 	if (gd.wasCanceled()) return false;
 	
