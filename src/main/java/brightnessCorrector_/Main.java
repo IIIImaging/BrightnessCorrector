@@ -1,4 +1,6 @@
-﻿/** ===============================================================================
+﻿package brightnessCorrector_;
+
+/** ===============================================================================
 * BrightnessCorrector_.java Version 0.0.1
 * 
 * This program is free software; you can redistribute it and/or
@@ -24,8 +26,6 @@
 * For any questions please feel free to contact me (rassmann@uni-bonn.de).
 *
 * =============================================================================== */
-
-package brightnessCorrector_;
 
 import java.awt.Font;
 import java.awt.Point;
