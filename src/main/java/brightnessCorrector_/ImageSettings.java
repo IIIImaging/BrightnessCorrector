@@ -1,4 +1,4 @@
-package brightnessCorrector_;
+﻿package brightnessCorrector_;
 
 /** ===============================================================================
 * BrightnessCorrector_.java Version 0.0.1
@@ -152,7 +152,7 @@ public class ImageSettings {
 		}
 		sb.append("used channel: " + maskChannel + "\nUsed radius: 	" + radius + "		(user's input: 	" + radiusUser + ")" +
 				"\nNumber of considered Pixels " + consideredPixels +
-				"	(user input:	" + consideredPixelsPercent + " %)	\nσ (radius for gaussian blurr): " 
+				"	(user's input:	" + consideredPixelsPercent + " %)	\nσ (radius for gaussian blurr): " 
 				+ sigma +" 		(user's input: 	" + sigmaUser + ")"+ "		(0 means no blurr added)");	
 		return sb.toString();
 	}
